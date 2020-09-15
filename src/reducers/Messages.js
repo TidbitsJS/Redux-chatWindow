@@ -2,7 +2,7 @@ import { getMessages } from "../staticData";
 import { SEND_MESSAGE } from "../constants/ActionTypes";
 import _ from "lodash";
 
-export default function messages(state = getMessages(10), action) {
+export default function Messages(state = getMessages(10), action) {
   switch (action.type) {
     case SEND_MESSAGE:
       const { message, userId } = action.payload;
