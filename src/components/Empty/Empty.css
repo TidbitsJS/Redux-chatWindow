@@ -27,6 +27,7 @@
   font-size: 1.2rem;
   border-radius: 30px;
   outline: 0;
+  border: 2px solid #fff;
 }
 .Empty__btn:hover {
   background: rgba(255, 255, 255, 0.7);
