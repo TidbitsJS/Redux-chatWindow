@@ -1,6 +1,6 @@
 import React from "react";
 import User from "../../containers/User/User";
-import "./Slidebar.css";
+import "./Sidebar.css";
 
 const Slidebar = ({ contacts }) => {
   return (
