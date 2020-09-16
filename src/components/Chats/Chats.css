@@ -6,6 +6,8 @@
   width: 85%;
   margin: 0 auto;
   overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .Chat {
   margin: 1rem 0;
@@ -29,4 +31,7 @@
   .Chat {
     max-width: 60%;
   }
+}
+.Chats::-webkit-scrollbar {
+  display: none;
 }
