@@ -1,5 +1,5 @@
 import { contacts as userContacts } from "../staticData";
 
-export default function Contacts(state = userContacts) {
+export default function contacts(state = userContacts) {
   return state;
 }
