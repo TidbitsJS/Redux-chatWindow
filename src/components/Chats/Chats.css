@@ -7,7 +7,6 @@
   margin: 0 auto;
   overflow-y: scroll;
 }
-
 .Chat {
   margin: 1rem 0;
   color: #fff;
@@ -17,7 +16,6 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-
 .Chat.is-user-msg {
   margin-left: auto;
   background: #2b2c33;

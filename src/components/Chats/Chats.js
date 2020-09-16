@@ -13,15 +13,12 @@ class Chats extends Component {
     super(props);
     this.chatsRef = React.createRef();
   }
-
   componentDidMount() {
     this.scrollToBottom();
   }
-
   componentDidUpdate() {
     this.scrollToBottom();
   }
-
   scrollToBottom = () => {
     this.chatsRef.current.scrollTop = this.chatsRef.current.scrollHeight;
   };

@@ -2,9 +2,9 @@ import React from "react";
 import User from "../../containers/User/User";
 import "./Sidebar.css";
 
-const Slidebar = ({ contacts }) => {
+const Sidebar = ({ contacts }) => {
   return (
-    <aside className="Slidebar">
+    <aside className="Sidebar">
       {contacts.map((contact) => (
         <User user={contact} key={contact.user_id} />
       ))}
@@ -12,4 +12,4 @@ const Slidebar = ({ contacts }) => {
   );
 };
 
-export default Slidebar;
+export default Sidebar;

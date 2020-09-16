@@ -1,4 +1,4 @@
-.Slidebar {
+.Sidebar {
   width: 80px;
   background-color: rgba(32, 32, 35, 1);
   height: 100%;
@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 576px) {
-  .Slidebar {
+  .Sidebar {
     width: 320px;
   }
 }
