@@ -9,7 +9,6 @@ const MessageInput = ({ value }) => {
   const handleChange = (e) => {
     store.dispatch(setTypingValue(e.target.value));
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     const { typing, activeUserId } = state;
@@ -19,10 +18,10 @@ const MessageInput = ({ value }) => {
   return (
     <form className="Message" onSubmit={handleSubmit}>
       <input
-        className="Message_input"
+        className="Message__input"
         onChange={handleChange}
         value={value}
-        placeholder="Write a message"
+        placeholder="write a message"
       />
     </form>
   );
